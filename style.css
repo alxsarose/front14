@@ -1,3 +1,15 @@
-main a{
-color:red;
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #F3F7FA;
+}
+.heah1{
+    font-family: "Fraunces", serif;
+    color: black;
+}
+nav{
+     font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: black;
 }
