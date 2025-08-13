@@ -102,4 +102,123 @@ header{
     background-color: #9EC84E; 
     color: #F3F7FA;
 }
+#deals{
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: medium;
+    color: #2D6B22;
+    font-size: 40px;
+    text-align: center; /* Горизонтальне центрування */
+    position: absolute; /* Для вертикального центрування */
+    top: 50%; /* Вирівнювання по вертикалі */
+    left: 50%; /* Вирівнювання по горизонталі */
+    transform: translate(-50%, -50%);
+    margin-top: 600px; /* Додатковий відступ зверху */
+}
+.line{
+    width:180px;
+    height: 2px;
+    background-color: #F3C301;
+    position: absolute; /* Для вертикального центрування */
+    top: 50%; /* Вирівнювання по вертикалі */
+    left: 50%; /* Вирівнювання по горизонталі */
+    transform: translate(-50%, -50%);
+    margin-top: 650px; /* Додатковий відступ зверху */
+}
+
+#best{
+    margin-top: 180px;
+}
+
+.seller{
+    width: 310px; 
+    height: 300px; 
+    margin-left: 70px;
+    border:#E8E1DB 1px solid;
+}
+.seller-name{
+    position: absolute;
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: medium;
+    font-size: 22px;
+    color: #2e2b2e;
+    margin-top: 0px;
+    margin-left: 170px;
+    margin-bottom: 20px;
+
+}
+.seller-description {
+    position: absolute;
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: medium;
+    font-size: 20px;
+    color: #C7DC70;
+    margin-top: 35px;
+    margin-left: 170px;
+}
+.seller-1{
+    width: 300px; 
+    height: 300px; 
+    border:#E8E1DB 1px solid;
+}
+.cards {
+    display: flex; /* Встановлює флекс-контейнер */
+    gap: -20px; /* Відстань між елементами */
+    align-items: flex-start; /* Вирівнювання по верхньому краю */
+    justify-content: flex-start; /* Вирівнювання по лівому краю */
+    flex-wrap: nowrap; /* Забороняє перенесення елементів */
+    margin-left: 0; /* Початок з лівого краю */
+    transition: transform 0.5s ease-in-out;
+}
+
+.seller-div {
+    display: flex;
+    flex-direction: column; /* Вміст всередині кожного .seller-div розташовується вертикально */
+    text-align: center; /* Центрування тексту під картинкою */
+    align-items: center; /* Центрування тексту під картинкою */ 
+    transition: transform 0.5s ease-in-out;
+}
+
+.seller-name, .seller-description {
+    position: static; /* Знімає абсолютне позиціонування */
+    margin: 0; /* Вирівнює текст */
+    margin-left: 50px;
+}
+.seller-2{
+    width: 300px; 
+    height: 300px; 
+    border:#E8E1DB 1px solid;
+}
+
+.arrow-1{
+    position: absolute;
+    left: 10px;
+    margin-top: 140px;
+    transform: rotate(180deg);
+    width: 50px;
+    height: 50px;
+    opacity: 0.3;
+    transition: 0.3s ease; 
+}
+.arrow-1:hover{
+    opacity: 1;
+    transform: rotate(180deg);
+}
+.arrow-2{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 1200px;
+    width: 50px;
+    height: 50px;
+    opacity: 0.3;
+    transition: 0.3s ease; 
+}
+.arrow-2:hover{
+    opacity: 1;
+}
 
